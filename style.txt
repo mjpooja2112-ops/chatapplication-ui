@@ -1,0 +1,38 @@
+style.html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FLOWERS</title>
+  <!-- External StyleSheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- Embedded StyleSheet -->
+  <style type="text/css">
+    p {
+      background-color: lightgrey;
+      text-align: justify;
+      margin: 2em 7em;
+    }
+  </style>
+</head>
+<body id="body">
+  <h1>FLOWERS</h1>
+  <p>
+    <span style="font-size: 200%; font-family: fantasy;">Flower</span> sometimes known as a bloom or blossom, is a reproductive structure found in flowering plants. The flower is God's finest workmanship in the world. It is his finest gift to mankind. We have seen the flowers of many kinds and many colors. In India, we see flowers like:
+  </p>
+  <!-- Inline StyleSheet -->
+  <table style="margin: 0 auto; text-align: center; padding: 3px;">
+    <tr>
+      <td>
+        <div>
+          <ul style="list-style-position: inside; padding: 0; margin: 0;">
+            <li><a href="">Lily</a></li>
+            <li><a href="">Lotus</a></li>
+            <li><a href="">Rose</a></li>
+            <li><a href="">Jasmine</a></li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
